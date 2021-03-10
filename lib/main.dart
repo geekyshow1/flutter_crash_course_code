@@ -5,25 +5,25 @@ void main() {
     children: <Widget>[
       Expanded(
           child: Text(
-        "One",
+        "1",
         textDirection: TextDirection.ltr,
         style: TextStyle(fontSize: 50),
       )),
       Expanded(
           child: Text(
-        "Two",
+        "2",
         textDirection: TextDirection.ltr,
         style: TextStyle(fontSize: 50),
       )),
       Expanded(
           child: Text(
-        "Three",
+        "3",
         textDirection: TextDirection.ltr,
         style: TextStyle(fontSize: 50),
       )),
       Expanded(
           child: Text(
-        "Four",
+        "4",
         textDirection: TextDirection.ltr,
         style: TextStyle(fontSize: 50),
       )),
