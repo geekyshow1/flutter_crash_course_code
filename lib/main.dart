@@ -3,26 +3,30 @@ import 'package:flutter/material.dart';
 void main() {
   runApp(Column(
     children: <Widget>[
-      Text(
+      Expanded(
+          child: Text(
         "One",
         textDirection: TextDirection.ltr,
         style: TextStyle(fontSize: 50),
-      ),
-      Text(
+      )),
+      Expanded(
+          child: Text(
         "Two",
         textDirection: TextDirection.ltr,
         style: TextStyle(fontSize: 50),
-      ),
-      Text(
+      )),
+      Expanded(
+          child: Text(
         "Three",
         textDirection: TextDirection.ltr,
         style: TextStyle(fontSize: 50),
-      ),
-      Text(
+      )),
+      Expanded(
+          child: Text(
         "Four",
         textDirection: TextDirection.ltr,
         style: TextStyle(fontSize: 50),
-      ),
+      )),
     ],
   ));
 }
