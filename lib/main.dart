@@ -2,7 +2,8 @@ import 'package:flutter/material.dart';
 
 void main() {
   runApp(Text(
-    "Flutter Crash Course Code",
+    "Hello Flutter",
     textDirection: TextDirection.ltr,
+    style: TextStyle(fontSize: 50),
   ));
 }
