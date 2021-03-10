@@ -8,50 +8,30 @@ void main() {
       child: Column(
         children: <Widget>[
           Text(
-            "One",
+            "1",
             textDirection: TextDirection.ltr,
-            style: TextStyle(fontSize: 50),
+            style: TextStyle(fontSize: 100),
           ),
           Text(
-            "Two",
+            "2",
             textDirection: TextDirection.ltr,
-            style: TextStyle(fontSize: 50),
+            style: TextStyle(fontSize: 100),
           ),
           Text(
-            "Three",
+            "3",
             textDirection: TextDirection.ltr,
-            style: TextStyle(fontSize: 50),
+            style: TextStyle(fontSize: 100),
           ),
           Text(
-            "Four",
+            "4",
             textDirection: TextDirection.ltr,
-            style: TextStyle(fontSize: 50),
+            style: TextStyle(fontSize: 100),
           ),
-          Text(
-            "Five",
-            textDirection: TextDirection.ltr,
-            style: TextStyle(fontSize: 50),
-          ),
-          Text(
-            "Six",
-            textDirection: TextDirection.ltr,
-            style: TextStyle(fontSize: 50),
-          ),
-          Text(
-            "Seven",
-            textDirection: TextDirection.ltr,
-            style: TextStyle(fontSize: 50),
-          ),
-          Text(
-            "Eight",
-            textDirection: TextDirection.ltr,
-            style: TextStyle(fontSize: 50),
-          ),
-          Text(
-            "Nine",
-            textDirection: TextDirection.ltr,
-            style: TextStyle(fontSize: 50),
-          ),
+          // Text(
+          //   "5",
+          //   textDirection: TextDirection.ltr,
+          //   style: TextStyle(fontSize: 100),
+          // ),
         ],
       )));
 }
@@ -68,79 +48,79 @@ void main() {
               child: Text(
             "1",
             textDirection: TextDirection.ltr,
-            style: TextStyle(fontSize: 50),
+            style: TextStyle(fontSize: 100),
           )),
           Expanded(
               child: Text(
             "2",
             textDirection: TextDirection.ltr,
-            style: TextStyle(fontSize: 50),
+            style: TextStyle(fontSize: 100),
           )),
           Expanded(
               child: Text(
             "3",
             textDirection: TextDirection.ltr,
-            style: TextStyle(fontSize: 50),
+            style: TextStyle(fontSize: 100),
           )),
           Expanded(
               child: Text(
             "4",
             textDirection: TextDirection.ltr,
-            style: TextStyle(fontSize: 50),
+            style: TextStyle(fontSize: 100),
           )),
           Expanded(
               child: Text(
             "5",
             textDirection: TextDirection.ltr,
-            style: TextStyle(fontSize: 50),
+            style: TextStyle(fontSize: 100),
           )),
           Expanded(
               child: Text(
             "6",
             textDirection: TextDirection.ltr,
-            style: TextStyle(fontSize: 50),
+            style: TextStyle(fontSize: 100),
           )),
           Expanded(
               child: Text(
             "7",
             textDirection: TextDirection.ltr,
-            style: TextStyle(fontSize: 50),
+            style: TextStyle(fontSize: 100),
           )),
           Expanded(
               child: Text(
             "8",
             textDirection: TextDirection.ltr,
-            style: TextStyle(fontSize: 50),
+            style: TextStyle(fontSize: 100),
           )),
           Expanded(
               child: Text(
             "9",
             textDirection: TextDirection.ltr,
-            style: TextStyle(fontSize: 50),
+            style: TextStyle(fontSize: 100),
           )),
           Expanded(
               child: Text(
             "10",
             textDirection: TextDirection.ltr,
-            style: TextStyle(fontSize: 50),
+            style: TextStyle(fontSize: 100),
           )),
           Expanded(
               child: Text(
             "11",
             textDirection: TextDirection.ltr,
-            style: TextStyle(fontSize: 50),
+            style: TextStyle(fontSize: 100),
           )),
           Expanded(
               child: Text(
             "12",
             textDirection: TextDirection.ltr,
-            style: TextStyle(fontSize: 50),
+            style: TextStyle(fontSize: 100),
           )),
           Expanded(
               child: Text(
             "13",
             textDirection: TextDirection.ltr,
-            style: TextStyle(fontSize: 50),
+            style: TextStyle(fontSize: 100),
           )),
         ],
       )));
