@@ -4,22 +4,22 @@ void main() {
   runApp(Column(
     children: <Widget>[
       Text(
-        "One",
+        "1",
         textDirection: TextDirection.ltr,
         style: TextStyle(fontSize: 50),
       ),
       Text(
-        "Two",
+        "2",
         textDirection: TextDirection.ltr,
         style: TextStyle(fontSize: 50),
       ),
       Text(
-        "Three",
+        "3",
         textDirection: TextDirection.ltr,
         style: TextStyle(fontSize: 50),
       ),
       Text(
-        "Four",
+        "4",
         textDirection: TextDirection.ltr,
         style: TextStyle(fontSize: 50),
       ),
