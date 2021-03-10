@@ -19,13 +19,12 @@ void main() {
         textDirection: TextDirection.ltr,
         style: TextStyle(fontSize: 50),
       ),
-
-      // Below will show an error
-      // Text(
-      //   "Four",
-      //   textDirection: TextDirection.ltr,
-      //   style: TextStyle(fontSize: 50),
-      // ),
+      Expanded(
+          child: Text(
+        "Four",
+        textDirection: TextDirection.ltr,
+        style: TextStyle(fontSize: 50),
+      )),
     ],
   ));
 }
