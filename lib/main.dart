@@ -4,6 +4,13 @@ void main() {
   runApp(MaterialApp(
       title: 'Flutter',
       home: Scaffold(
+          appBar: AppBar(
+            title: const Text(
+              'My Flutter App',
+              style: TextStyle(color: Colors.black),
+            ),
+            backgroundColor: Colors.cyanAccent,
+          ),
           backgroundColor: Colors.cyan,
           body: Center(
               child: Text(
