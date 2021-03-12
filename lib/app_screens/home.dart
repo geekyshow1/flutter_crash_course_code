@@ -20,14 +20,13 @@ class MyHomePage extends StatelessWidget {
                           'Samsung A 10',
                           style: TextStyle(fontSize: 30),
                         ),
-                        ElevatedButton(
-                            onPressed: () {},
-                            child: Text('Click Me'),
-                            style: ElevatedButton.styleFrom(
-                                primary: Colors.purple,
-                                padding: EdgeInsets.all(10.0),
-                                textStyle: TextStyle(
-                                    fontSize: 30, fontWeight: FontWeight.bold)))
+                        FloatingActionButton(
+                          onPressed: () {
+                            print('Button Clicked');
+                          },
+                          child: Text('Click'),
+                          backgroundColor: Colors.pink,
+                        ),
                       ],
                     )))));
   }
