@@ -20,18 +20,14 @@ class MyHomePage extends StatelessWidget {
                           'Samsung A 10',
                           style: TextStyle(fontSize: 30),
                         ),
-                        TextButton(
-                            onPressed: () {
-                              print('Button Clicked');
-                            },
+                        ElevatedButton(
+                            onPressed: () {},
                             child: Text('Click Me'),
-                            style: TextButton.styleFrom(
-                              primary: Colors.black,
-                              backgroundColor: Colors.amberAccent,
-                              padding: EdgeInsets.all(20.0),
-                              textStyle: TextStyle(
-                                  fontSize: 20, fontWeight: FontWeight.bold),
-                            ))
+                            style: ElevatedButton.styleFrom(
+                                primary: Colors.purple,
+                                padding: EdgeInsets.all(10.0),
+                                textStyle: TextStyle(
+                                    fontSize: 30, fontWeight: FontWeight.bold)))
                       ],
                     )))));
   }
