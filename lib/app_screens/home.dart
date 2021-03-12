@@ -5,7 +5,7 @@ class MyHomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Center(
         child: SizedBox(
-            height: 350,
+            height: 400,
             child: Card(
                 child: Padding(
                     padding: EdgeInsets.all(30.0),
@@ -20,6 +20,18 @@ class MyHomePage extends StatelessWidget {
                           'Samsung A 10',
                           style: TextStyle(fontSize: 30),
                         ),
+                        TextButton(
+                            onPressed: () {
+                              print('Button Clicked');
+                            },
+                            child: Text('Click Me'),
+                            style: TextButton.styleFrom(
+                              primary: Colors.black,
+                              backgroundColor: Colors.amberAccent,
+                              padding: EdgeInsets.all(20.0),
+                              textStyle: TextStyle(
+                                  fontSize: 20, fontWeight: FontWeight.bold),
+                            ))
                       ],
                     )))));
   }
