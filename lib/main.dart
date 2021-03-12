@@ -1,19 +1,21 @@
 import 'package:flutter/material.dart';
-
-import 'app_screens/home.dart';
+import 'package:flutter_crash_course_code/app_screens/home.dart';
 
 void main() {
-  runApp(MaterialApp(title: 'Flutter', home: MyHome()));
+  runApp(MyApp());
 }
 
-class MyHome extends StatelessWidget {
+class MyApp extends StatelessWidget {
+  // This widget is the root of your application.
   @override
-  Widget build(Object context) {
-    return Scaffold(
-        appBar: AppBar(
-          title: const Text('My Flutter App'),
-          backgroundColor: Colors.blueAccent,
-        ),
-        body: MyHomePage());
+  Widget build(BuildContext context) {
+    return MaterialApp(
+        title: 'Flutter',
+        home: Scaffold(
+            appBar: AppBar(
+              title: const Text('My Flutter App'),
+              backgroundColor: Colors.blueAccent,
+            ),
+            body: MyHomePage()));
   }
 }
