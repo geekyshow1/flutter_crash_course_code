@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import 'app_screens/home.dart';
+
 void main() {
   runApp(MaterialApp(title: 'Flutter', home: MyHome()));
 }
@@ -12,24 +14,6 @@ class MyHome extends StatelessWidget {
           title: const Text('My Flutter App'),
           backgroundColor: Colors.blueAccent,
         ),
-        body: Center(
-            child: SizedBox(
-                height: 350,
-                child: Card(
-                    child: Padding(
-                        padding: EdgeInsets.all(30.0),
-                        child: Column(
-                          children: [
-                            Image.asset(
-                              'images/mobile/m1.jpg',
-                              height: 200,
-                            ),
-                            Divider(),
-                            Text(
-                              'Samsung A 10',
-                              style: TextStyle(fontSize: 30),
-                            ),
-                          ],
-                        ))))));
+        body: MyHomePage());
   }
 }
