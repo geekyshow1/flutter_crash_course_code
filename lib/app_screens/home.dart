@@ -1,33 +1,35 @@
 import 'package:flutter/material.dart';
 
-class MyHomePage extends StatelessWidget {
+class MyHomePage extends StatefulWidget {
+  @override
+  _MyHomePageState createState() => _MyHomePageState();
+}
+
+class _MyHomePageState extends State<MyHomePage> {
+  String name = "";
   @override
   Widget build(BuildContext context) {
     return Center(
-        child: Text(
-      'Number is ${addNumber(20, 30)}',
-      textDirection: TextDirection.ltr,
-      style: TextStyle(fontSize: 30),
-    ));
-  }
-
-  int addNumber(a, b) {
-    return a + b;
+        child: Column(children: [
+      TextField(
+        onSubmitted: (value) {
+          // name = value;
+          setState(() {
+            name = value;
+          });
+        },
+        // onChanged: (value) {
+        //   // name = value;
+        //   setState(() {
+        //     name = value;
+        //   });
+        // },
+      ),
+      Text(
+        'Name: $name',
+        textDirection: TextDirection.ltr,
+        style: TextStyle(fontSize: 30),
+      ),
+    ]));
   }
 }
-
-// class MyHomePage extends StatelessWidget {
-//   @override
-//   Widget build(BuildContext context) {
-//     return Center(
-//         child: Text(
-//       addNumber(10, 50),
-//       textDirection: TextDirection.ltr,
-//       style: TextStyle(fontSize: 30),
-//     ));
-//   }
-
-//   String addNumber(a, b) {
-//     return 'Number is ${a + b}';
-//   }
-// }
