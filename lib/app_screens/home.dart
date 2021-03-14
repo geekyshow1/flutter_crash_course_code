@@ -4,30 +4,30 @@ class MyHomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Center(
-        child: SizedBox(
-            height: 400,
-            child: Card(
-                child: Padding(
-                    padding: EdgeInsets.all(30.0),
-                    child: Column(
-                      children: [
-                        Image.asset(
-                          'images/mobile/m1.jpg',
-                          height: 200,
-                        ),
-                        Divider(),
-                        Text(
-                          'Samsung A 10',
-                          style: TextStyle(fontSize: 30),
-                        ),
-                        FloatingActionButton(
-                          onPressed: () {
-                            print('Button Clicked');
-                          },
-                          child: Text('Click'),
-                          backgroundColor: Colors.pink,
-                        ),
-                      ],
-                    )))));
+        child: Text(
+      'Number is ${addNumber(20, 30)}',
+      textDirection: TextDirection.ltr,
+      style: TextStyle(fontSize: 30),
+    ));
+  }
+
+  int addNumber(a, b) {
+    return a + b;
   }
 }
+
+// class MyHomePage extends StatelessWidget {
+//   @override
+//   Widget build(BuildContext context) {
+//     return Center(
+//         child: Text(
+//       addNumber(10, 50),
+//       textDirection: TextDirection.ltr,
+//       style: TextStyle(fontSize: 30),
+//     ));
+//   }
+
+//   String addNumber(a, b) {
+//     return 'Number is ${a + b}';
+//   }
+// }
